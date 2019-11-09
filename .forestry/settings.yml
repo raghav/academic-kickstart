@@ -10,6 +10,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/publication
+  label: Publications
+  create: all
+  match: "**/*"
+- type: directory
   path: content/post
   label: Blog posts
   create: all
@@ -28,11 +33,6 @@ sections:
   match: "**/*"
   templates:
     - event
-- type: directory
-  path: content/publication
-  label: Publications
-  create: all
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
