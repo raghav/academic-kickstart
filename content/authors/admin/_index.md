@@ -21,9 +21,9 @@ organizations:
 bio: My research interests include Device-Circuit co-design, Biomedical Circuits.
 
 interests:
-- Semiconductor Devices, 
+- Semiconductor Devices
 - Biomedical Circuits
-- Device-Circuit co-design, 
+- Device-Circuit co-design
 - Timing Models
 
 education:
@@ -54,11 +54,18 @@ email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- References
+user_groups: []
+# - References
 
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Graphics Hardware Engineer in the Image Processing Unit at Intel India. At present, I am working on a new algorithm for the placement of memories in design based on connectivity with ports, other memories, and standard cell logic in the design.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+On the side of fun, I like to cook food for friends. I also like to write poems from time to time. You can read some of these here. On weekends, I can be found in a quiet corner at some literary event in Bangalore. 
+
+I graduated from IIT Roorkee in 2018, where I was advised by Dr. Anand Bulusu. During my time at IIT Roorkee, I have also had the pleasure to work with Dr. Sanjeev Manhas. For my hobby projects, I got to work on some interesting stuff at the Artificial Intelligence & Electronics Section, IEEE Student Branch, and Mobile Development Group at IIT Roorkee. 
+
+Over my bachelor’s, I have had the opportunity to explore many fields, ranging from Analog circuits, CMOS Devices to delay modeling in digital circuits. I also got to work on Industry research problems during my Internship at STMicroelectronics with Mr. Pratap Narayan Singh and during my major thesis at IIT Roorkee.
+
+<TA Ship & SMP> 
+I like interacting with my juniors. I had the opportunity of serving as a Teaching Assistant for the course ‘Semiconductor Devices’ twice and a mentor in the Institute’s Student mentorship program for freshmen undergrads.
