@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: Bachelor with Honours in Electronics and Communication
+  - course: Bachelor with Honors in Electronics and Communication
     institution: Indian Institute of Technology(IIT) Roorkee
     year: 2018
 
