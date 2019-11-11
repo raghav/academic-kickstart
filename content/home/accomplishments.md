@@ -19,8 +19,8 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Valeo"
-  organization_url = "https://www.valeo.com/en/"
+  organization = "Valeo Innocation Challenge"
+  organization_url = "https://valeoinnovationchallenge.valeo.com"
   title = "World Finalist"
   url = "https://www.valeo.com/en/2017-valeo-innovation-challenge-meet-the-finalist-teams/"
   date_start = "2017-10-27"
@@ -30,7 +30,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "IIT Bombay"
   organization_url = "http://www.iitb.ac.in/"
-  title = "India Finalist"
+  title = "National Finalist"
   url = ""
   date_start = "2016-02-01"
   date_end = ""
@@ -48,20 +48,11 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Sankalp, IIT Roorkee"
   organization_url = "https://www.iitr.ac.in/"
-  title = "Winner of Hackathon"
+  title = "Winner of Social Hackathon"
   url = ""
   date_start = "2015-02-01"
   date_end = ""
   description = "Winner of the inter-college competition during **Sankalp 2015** (Annual Social Convention, NSS, IIT Roorkee) for a mobile application on **Women Security**"
-
-[[item]]
-  organization = "ECE Dept., IIT Roorkee"
-  organization_url = "https://www.iitr.ac.in/departments/ECE/"
-  title = "Runner Up of Ideaz"
-  url = ""
-  date_start = "2017-03-01"
-  date_end = ""
-  description = "Runner Up in the competition- **Ideaz** organized by ECE Department, IIT Roorkee during Cognizance 2017"
 
 [[item]]
   organization = "Inter IIT Tech Meet"
