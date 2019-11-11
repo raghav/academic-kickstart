@@ -26,7 +26,7 @@ publication_short: IEEE S3S(San Fransisco)
 abstract: Through Silicon Vias (TSVs) used in 3D ICs induce stress in the silicon wafer. This stress causes variations in the mobility and threshold voltage depending upon the value of various stress components, which in turn affects the propagation delay of logic gates. In this paper, a complete methodology is developed for modeling the variation of an inverter and a 2-input NAND gate delay at any point (r, θ) around a TSV. Analytical models for stress variations are developed, subsequently, the corresponding variations in mobility and threshold voltage are modeled. These variations are translated into the delay variations using the timing models developed. We show that due to TSV induced stress an Inverter and NAND gate delay varies around 20%. The proposed model predicts this variability with a maximum error of around 9%.
 
 # Summary. An optional shortened abstract.
-summary: Through Silicon Vias (TSVs) used in 3D ICs induce stress in the silicon wafer. This stress causes variations in the mobility and threshold voltage depending upon the value of various stress components, which in turn affects the propagation delay of logic gates.
+summary: In this paper, we developed models to calculate the variation of threshold voltage and mobility due to stress around a TSV in 3D ICs. These models were then used to calculate delay variation of an inverter around a TSV.
 
 # tags:
 # - Source Themes
