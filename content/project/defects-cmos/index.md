@@ -1,6 +1,6 @@
 ---
 title: I-V characteristic variations due to defects in CMOS
-summary: An example of linking directly to an external project website using `external_link`. An example of linking directly to an external project website using `external_link`.
+summary: Studied different types of defects and the resulting shifting of bands. Simulated the corresponding changes in leakage current in MOSFET due to various forms of gate leakage and drain leakage.
 tags:
 - Hardware
 date: "2016-11-01T00:00:00Z"
