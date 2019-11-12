@@ -39,7 +39,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:raghav.chawla63@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:raghav.chawla51@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.in/citations?user=Yc1GpBQAAAAJ&hl=en
