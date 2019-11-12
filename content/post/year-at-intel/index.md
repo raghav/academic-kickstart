@@ -3,6 +3,9 @@ title: A year at intel
 # subtitle: Learn how to blog in Acdfsademic using Jupyter notebooks
 # summary: Learn how to blog in Academic using Jupyter notebooksnjlkklj
 date: 2019-06-30
+lastMod: 2019-06-30T00:00:00Z
+# date: "2019-02-05T00:00:00Z"
+# lastMod: "2019-09-05T00:00:00Z"
 authors:
 - admin
 markup: mmark

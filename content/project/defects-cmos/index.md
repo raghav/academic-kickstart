@@ -8,6 +8,6 @@ date: "2016-11-01T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  # caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
 ---
