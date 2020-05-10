@@ -25,20 +25,28 @@ date_format = "Jan 2006"
   date_start = "2018-06-11"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Performance verification
+   
   * Physical Design
-  * Macro placement Algorithm design
+  * Graphics Architectures
+  * Performance Verification
   """
 
 [[experience]]
-  title = "Teaching Assistance"
+  title = "Undergraduate Research Assistant"
+  company = "Dept. of ECE, IIT Roorkee"
+  company_url = "https://www.iitr.ac.in/departments/ECE/"
+  location = "Roorkee, India"
+  date_start = "2017-06-01"
+  date_end = "2018-04-30"
+  description = """Worked in Dr. Bulusu's lab on developing an empirical delay model for cells under TSV stress in 3D ICs"""
+
+[[experience]]
+  title = "Teaching Assistant"
   company = "Dept. of ECE, IIT Roorkee"
   company_url = "https://www.iitr.ac.in/departments/ECE/"
   location = "Roorkee, India"
   date_start = "2018-01-01"
-  date_end = "2018-04-30"
+  date_end = "2018-05-30"
   description = """Taught ‘Semiconductor Devices’, an introductory course for freshmen undergraduate students, for two semesters as Teaching Assistant for Dr. Anand Bulusu"""
 
 [[experience]]

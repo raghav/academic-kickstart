@@ -62,13 +62,12 @@ user_groups: []
 # - References
 
 ---
-I am a Graphics Hardware Engineer in the Image Processing Unit at Intel India, working on Physical design optimization from synthesis to ECOs. At present, I am working on a new algorithm for the placement of memories in a design based on connectivity with ports, other memories, and standard cell logic in the design.  
+I am a Graphics Hardware Engineer in the Image Processing Unit at Intel India, working on Graphics Architectures and Physical design optimization from synthesis to GDSII. Currently, I am working on a new algorithm to solve cell congestion hotspots in a design by suggesting alternate locations considering timing slack and DRCs.  
 
-On the side of fun, I like to cook for friends & family. Ever so often, I also like to write poems at [YourQuote](https://www.yourquote.in/raghav-chawla-mdu8/quotes). On weekends, I can be found in a quiet corner at some literary event in Bangalore. 
+On the side of fun, I like to cook for friends & family. Ever so often, I also like to write poems at [YourQuote](https://www.yourquote.in/raghav-chawla-mdu8/quotes). Like every music wannabe, I bought a keyboard recently and am sluggishly learning to play it. On weekends, I can be found in a quiet corner at some literary event in Bangalore. 
 
 I graduated from IIT Roorkee in 2018, where I was advised by [Dr. Anand Bulusu](https://www.iitr.ac.in/departments/ECE/pages/People+Faculty+Bulusu__Anand.html). During my time at IIT Roorkee, I also had the pleasure to work with [Dr. Sanjeev Manhas](https://www.iitr.ac.in/departments/ECE/pages/People+Faculty+Manhas__Sanjeev.html). For my hobby projects, I worked on some interesting stuff at the Artificial Intelligence & Electronics Section, IEEE Student Branch, and Mobile Development Group at IIT Roorkee. 
 
-Over my bachelor’s, I had the opportunity to explore many fields, ranging from Analog circuits, CMOS Devices to delay modeling in digital circuits. I also got to work on Industry research problems during my Internship at STMicroelectronics with [Mr. Pratap Narayan Singh](https://www.linkedin.com/in/pratapns) and during my major thesis at IIT Roorkee.
+During my bachelor’s, I had the opportunity to explore many fields, ranging from Analog circuits, CMOS Devices to delay modeling in digital circuits. I also got to work on Industry research problems during my Internship at STMicroelectronics with [Mr. Pratap Narayan Singh](https://www.linkedin.com/in/pratapns) and during my major thesis at IIT Roorkee.
 
-<TA Ship & SMP> 
 I like interacting with my juniors. I did serve as a Teaching Assistant for the course ‘Semiconductor Devices’ twice and a mentor in the Institute’s Student mentorship program for freshmen undergrads. 

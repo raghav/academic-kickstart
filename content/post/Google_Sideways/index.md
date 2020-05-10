@@ -17,7 +17,7 @@ markup: mmark
 
 
 
-This blog talks about a recent improvement in the backpropagation in neural networks and was introduced by Google Deepmind in 2020. The paper being referred to is “Sideways: Depth-Parallel Training of Video Models” and can be found here. 
+This blog talks about a recent improvement in the backpropagation in neural networks and was introduced by Google Deepmind in 2020. The paper being referred to is “*Sideways: Depth-Parallel Training of Video Models*” and can be found [here](https://arxiv.org/pdf/2001.06232.pdf). 
 
 The basic idea is to use the time between the forward and backward passes of two consecutive inputs in a neural network, which was completely unused in the conventional backpropagation algorithm. 
 
@@ -28,7 +28,7 @@ While reading this paper, I realize how no one could think of this idea before? 
 
 It’s okay if this image does not click in the first impression. Read on, and I will try to explain as much as I could understand.
 
-I am assuming that the reader is aware of the normal backpropagation algorithm used in neural networks. If not, a nice explanation can be found [**here**](http://neuralnetworksanddeeplearning.com/chap2.html).
+I am assuming that the reader is aware of the normal backpropagation algorithm used in neural networks. If not, a nice explanation can be found [here](http://neuralnetworksanddeeplearning.com/chap2.html).
 
 What innovation the sideways algorithm brings is that while one input is being propagated forward and then backward in order to update the weights, the next input is not being used. The practical networks either skip some of the input samples in this time frame or wait for both the forward and backward passes to complete. This is clearly a waste of time that could be used. The reason this time could not be used is that in the conventional backpropagation, during the backward pass, the change in weight of a node in any layer is calculated by the activation fn. (calculated during the forward pass) and the derivative of cost w.r.t. weight (calculated during the backward pass). See the below equation for clarity:
 
@@ -41,12 +41,14 @@ Now, what sideways inherently assumes is that in any time series continuous data
 Now, for calculating any weight update, we see whichever latest backpropagated error is available at that time and multiply with the latest activation fn. Of the forward pass (Thus, the backpropagated error and the forward activation function are essentially of different input samples). The reason this is similar to the original backpropagation is that the input frames are continuous and thus, the activation functions and backpropagated errors won’t change much (except the frames near a change in the scene which can be ignored since that no. would be very small compared to the no. of total frames). 
 
 
-“Okay, so using sideways proves to be time-saving. But, is there any other advantage of why I should be using this?” 
+“*Okay, so using sideways proves to be time-saving. But, is there any other advantage of why I should be using this?*” 
 
-Well, yes. There is another improvement that we get which we may not have thought of while deploying sideways. When we keep on changing the inputs for updating the weights, the weights are not necessarily learning the feature of any particular input (since no weight update is dependent on any particular input, as opposed to conventional backpropagation which had every weight update to minimize the cost of every input). Thus, we are preventing our model to learn the intricacies of any particular input frames and thus, learn the overall features of the time series data. Or, to say in ML Lingo, we are introducing some sort of regularization in our model and thus, reducing overfitting. This effect is reflected in the testing accuracy graphs as below:
+Well, yes. There is another improvement that we get which we may not have thought of while deploying sideways. When we keep on changing the inputs for updating the weights, the weights are not necessarily learning the feature of any particular input (since no weight update is dependent on any particular input, as opposed to conventional backpropagation which had every weight update to minimize the cost of every input). Thus, we are preventing our model to learn the intricacies of any particular input frames and thus, learn the overall features of the time series data. Or, to say in ML Lingo, we are introducing some sort of regularization in our model and thus, reducing overfitting. This effect is reflected in the tranining accuracy graphs as below:
 
+![alt text](Training_Accuracy.PNG "Training Accuracy: Backpropagation vs Sideways")
+<h2><span style="color:navy">What Next?</span></h2>
 
-“These seem to be all good flowers. But there has to be a thorn in it. Is there any hidden drawback that we could have been missing?”
+“*These seem to be all good flowers. But there has to be a thorn in it. Is there any hidden drawback that we could have been missing?*”
 
 Yes, if we look closely, there are some drawbacks that may hinder the use of sideways in practical applications. 
 
