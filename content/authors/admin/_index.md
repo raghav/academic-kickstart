@@ -18,13 +18,13 @@ organizations:
   url: "http://intel.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Device-Circuit co-design, Biomedical Circuits.
+#bio: My research interests include Device-Circuit co-design, Biomedical Circuits.
 
 interests:
-- Semiconductor Devices
-- Biomedical Circuits
+- VLSI Physical Design
+- Computer Architecture
 - Device-Circuit co-design
-- Timing Models
+- Delay Characterization
 
 education:
   courses:

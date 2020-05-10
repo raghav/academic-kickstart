@@ -1,5 +1,5 @@
 ---
-title: " Google Sideways: My two cents"
+title: " Google Sideways"
 # subtitle: Learn how to blog in Acdfsademic using Jupyter notebooks
 # summary: Learn how to blog in Academic using Jupyter notebooksnjlkklj
 date: 2020-05-09
@@ -14,10 +14,12 @@ markup: mmark
 #   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
+<h4><a style="color:navy"; font-weight:normal; href="https://arxiv.org/pdf/2001.06232.pdf"><u>Paper Referred</u></a>: Sideways: Depth-Parallel Training of Video Models</h4>
+<h4><span style="color:navy"; font-weight:normal>Authors</span>: Mateusz Malinowski, Grzegorz Świrszcz, João Carreira, and Viorica Pătrăucean</h4>
+<br>
+<h2><span style="color:navy">Why this research?</span></h2>
 
-
-
-This blog talks about a recent improvement in the backpropagation in neural networks and was introduced by Google Deepmind in 2020. The paper being referred to is “*Sideways: Depth-Parallel Training of Video Models*” and can be found [here](https://arxiv.org/pdf/2001.06232.pdf). 
+This blog talks about a recent improvement in the backpropagation in neural networks and was introduced by Google Deepmind in 2020.
 
 The basic idea is to use the time between the forward and backward passes of two consecutive inputs in a neural network, which was completely unused in the conventional backpropagation algorithm. 
 
@@ -28,7 +30,9 @@ While reading this paper, I realize how no one could think of this idea before? 
 
 It’s okay if this image does not click in the first impression. Read on, and I will try to explain as much as I could understand.
 
-I am assuming that the reader is aware of the normal backpropagation algorithm used in neural networks. If not, a nice explanation can be found [here](http://neuralnetworksanddeeplearning.com/chap2.html).
+<h2><span style="color:navy">The Paper</span></h2>
+
+I am assuming that the reader is aware of the normal backpropagation algorithm used in neural networks. If not, a nice explanation can be found [here](https://arxiv.org/pdf/2001.06232.pdf).
 
 What innovation the sideways algorithm brings is that while one input is being propagated forward and then backward in order to update the weights, the next input is not being used. The practical networks either skip some of the input samples in this time frame or wait for both the forward and backward passes to complete. This is clearly a waste of time that could be used. The reason this time could not be used is that in the conventional backpropagation, during the backward pass, the change in weight of a node in any layer is calculated by the activation fn. (calculated during the forward pass) and the derivative of cost w.r.t. weight (calculated during the backward pass). See the below equation for clarity:
 
@@ -46,7 +50,7 @@ Now, for calculating any weight update, we see whichever latest backpropagated e
 Well, yes. There is another improvement that we get which we may not have thought of while deploying sideways. When we keep on changing the inputs for updating the weights, the weights are not necessarily learning the feature of any particular input (since no weight update is dependent on any particular input, as opposed to conventional backpropagation which had every weight update to minimize the cost of every input). Thus, we are preventing our model to learn the intricacies of any particular input frames and thus, learn the overall features of the time series data. Or, to say in ML Lingo, we are introducing some sort of regularization in our model and thus, reducing overfitting. This effect is reflected in the tranining accuracy graphs as below:
 
 ![alt text](Training_Accuracy.PNG "Training Accuracy: Backpropagation vs Sideways")
-<h2><span style="color:navy">What Next?</span></h2>
+<h2><span style="color:navy">What Next? My two cents</span></h2>
 
 “*These seem to be all good flowers. But there has to be a thorn in it. Is there any hidden drawback that we could have been missing?*”
 
