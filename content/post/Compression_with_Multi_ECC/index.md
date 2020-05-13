@@ -15,16 +15,14 @@ markup: mmark
 ---
 
 
-<h4><a style="color:navy"; font-weight:normal; href="https://nanocad.ee.ucla.edu/wp-content/papercite-data/pdf/w15.pdf"><u>Paper Referred</u></a>: Compression with Multi-ECC: Enhanced Error
-Resiliency for Magnetic Memories</h4>
+<h4><a style="color:navy"; font-weight:normal; href="https://nanocad.ee.ucla.edu/wp-content/papercite-data/pdf/w15.pdf"><u>Paper Referred</u></a>: Compression with Multi-ECC: Enhanced Error Resiliency for Magnetic Memories</h4>
 <h4><span style="color:navy"; font-weight:normal>Authors</span>: Irina Alam, Saptadeep Pal and Puneet Gupta</h4>
 <br>
 <h2><span style="color:navy">Why this research?</span></h2>
 
 With the need for different properties (such as higher density, non-volatility, and higher performance) of memories, DRAM can’t be used for some applications. There are various candidates for replacing DRAMs such as PCM, STTRAM, and ReRAM. This research uses STTRAM because of zero leakage power and better endurance. 
 
-![alt text](STT_RAM_Schematic.PNG "Schematic of STT-RAM showing the anti-parallel and
-parallel states")
+![alt text](STT_RAM_Schematic.PNG "Schematic of STT-RAM showing the anti-parallel and parallel states")
 
 
 However, there are many issues associated with this memory such as a) With read current getting comparable to the write currents at lower nodes because of the unidirectional read operation, the read operation can alter the stored value. Since the read operation is asymmetric, this error comes when reading a 1 (i.e., it can switch 1 to 0), b) the time required for writing a data is lesser for writing a 0 as compared to writing a 1. Thus, write error occurs when current is removed before 1 has been written, c) Thermal instability of STTRAMs causes the stored data to flip. This stability can be increased by increasing the write current, thus reducing the write time. While the first 2 errors can be reduced by reducing the weight of hamming code (i.e., reducing the no. of 1s). the third can be reduced by increasing the robustness (by increasing the area). 

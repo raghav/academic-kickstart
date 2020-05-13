@@ -62,7 +62,7 @@ user_groups: []
 # - References
 
 ---
-I am a Graphics Hardware Engineer in the Image Processing Unit at Intel India, working on Graphics Architectures and Physical design optimization from synthesis to GDSII. Currently, I am working on a new algorithm to solve cell congestion hotspots in a design by suggesting alternate locations considering timing slack and DRCs.  
+I am a Graphics Hardware Engineer in the Image Processing Unit at Intel India, working on Graphics Architectures and Physical design optimization from synthesis to GDSII. I have been a aprt of some really interesting projects here so far. Currently, I am working on a new algorithm to solve cell congestion hotspots in a design by suggesting alternate locations considering timing slack and DRCs.  
 
 On the side of fun, I like to cook for friends & family. Ever so often, I also like to write poems at [YourQuote](https://www.yourquote.in/raghav-chawla-mdu8/quotes). Like every music wannabe, I bought a keyboard recently and am sluggishly learning to play it. On weekends, I can be found in a quiet corner at some literary event in Bangalore. 
 
